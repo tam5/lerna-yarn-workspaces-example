@@ -9,22 +9,23 @@
   "license": "MIT",
   "scripts": {
     "story": "start-storybook",
-    "libbuild": "tsc && tsc --build tsconfig.esm.json"
+    "libbuild": "tsc && tsc --build tsconfig.esm.json",
+    "watch": "tsc --build tsconfig.esm.json --watch"
   },
   "peerDependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@storybook/react": "^5.2.5",
+    "@babel/core": "^7.12.10",
+    "@storybook/react": "^6.1.15",
     "@types/storybook__react": "^4.0.2",
     "awesome-typescript-loader": "^5.2.1",
-    "babel-loader": "^8.0.6",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0",
-    "source-map-loader": "^0.2.4",
-    "style-loader": "^1.0.0",
-    "typescript": "^3.6.4"
+    "babel-loader": "8.1.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "source-map-loader": "^2.0.0",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.1.3"
   }
 }
