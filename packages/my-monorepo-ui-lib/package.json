@@ -10,7 +10,8 @@
   "scripts": {
     "story": "start-storybook",
     "libbuild": "tsc && tsc --build tsconfig.esm.json",
-    "watch": "tsc --build tsconfig.esm.json --watch"
+    "watch": "tsc --build tsconfig.esm.json --watch",
+    "test": "exit 0"
   },
   "peerDependencies": {
     "react": "^17.0.1",
