@@ -28,5 +28,9 @@
     "source-map-loader": "^2.0.0",
     "style-loader": "^2.0.0",
     "typescript": "^4.1.3"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tam5/lerna-yarn-workspaces-example.git"
   }
 }

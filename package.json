@@ -17,5 +17,9 @@
     "story": "lerna run story --stream",
     "prestart": "lerna run libbuild --stream",
     "start": "lerna run start --stream"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tam5/lerna-yarn-workspaces-example.git"
   }
 }
